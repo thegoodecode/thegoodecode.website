@@ -1,3 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anta", sans-serif;
+  
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 2em;
+  color: #000000;
+  cursor: default;
+}
+
+.navigation a {
+  font-size: 1.1em;
+  color: #555;
+  text-decoration: none;
+  margin-right: 40px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navigation a:hover {
+  color: #284c66
+}
+
+.button-talk {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 35px;
+  background-color: #284c66;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.button-talk:hover {
+  color: #284c66;
+  background: transparent;
+}
+
+
+
 div{
   width: 75%;
   margin-left: 12.5%;
@@ -17,3 +72,4 @@ p{
   font-weight: 400;
   font-style: normal;
 }
+
