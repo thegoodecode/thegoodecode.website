@@ -16,6 +16,7 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  background-color: #b9d1e1;
 }
 
 .logo{
@@ -48,28 +49,8 @@ header {
 
 .button-talk:hover {
   color: #284c66;
-  background: transparent;
+  background-color: transparent;
 }
 
 
-
-div{
-  width: 75%;
-  margin-left: 12.5%;
-  margin-top: 100px;
-  text-align: center;
-
-}
-
-h1 {
-  font-family: "Anta", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-p{
-  font-family: "Anta", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
